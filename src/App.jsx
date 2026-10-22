@@ -214,7 +214,7 @@ export default function App() {
     <div className="app">
       <header className="topbar">
         <button type="button" className="brand" aria-label="Zeta Pharma" onClick={() => go({ name: 'inbox' })}>
-          <img className="brand-logo" src="/zeta-pharma-logo.png" alt="Zeta Pharma" />
+          <img className="brand-logo" src={`${import.meta.env.BASE_URL}zeta-pharma-logo.png`} alt="Zeta Pharma" />
         </button>
         <button
           type="button"
